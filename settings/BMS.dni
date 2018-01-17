@@ -1,0 +1,150 @@
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-229220741
+[CodeCoverage]
+Enabled=_ 0
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[SWOTraceHWSettings]
+OverrideDefaultClocks=0
+CpuClock=72000000
+ClockAutoDetect=0
+ClockWanted=2000000
+JtagSpeed=2000000
+Prescaler=36
+TimeStampPrescIndex=0
+TimeStampPrescData=0
+PcSampCYCTAP=1
+PcSampPOSTCNT=15
+PcSampIndex=0
+DataLogMode=0
+ITMportsEnable=0
+ITMportsTermIO=0
+ITMportsLogFile=0
+ITMlogFile=$PROJ_DIR$\ITM.log
+[Interrupts]
+Enabled=1
+Irq0=_ 0 1200000 0 10000 1 0 0 100 0 1 "SysTick 1 0x3C"
+Count=1
+[MemConfig]
+Base=1
+Manual=0
+Ddf=1
+TypeViol=0
+Stop=1
+[Simulator]
+Freq=10000000
+MultiCoreRunAll=1
+[JLinkDriver]
+CStepIntDis=_ 0
+TraceBufferSize=0x00010000
+TraceStallIfFIFOFull=0x00000000
+TracePortSize=0x00000004
+[PowerLog]
+LogEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=0
+Title_0=I0
+Symbol_0=0 4 1
+LiveEnabled=0
+LiveFile=PowerLogLive.log
+[EventLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[PowerProbe]
+Frequency=10000
+Probe0=I0
+ProbeSetup0=2 1 1 2 0 0
+[struct_types]
+Fmt0=struct bmu_class-CellSeriesNum	3	0
+Fmt1=struct bmu_class-CellTempNum	3	0
+Fmt2=struct limit-MaxTemp	3	0
+Fmt3=struct limit-MinTemp	3	0
+Fmt4=struct os_bxcan_msg-Id	4	0
+Fmt5=struct par_class-CRC	4	0
+[array_types]
+Fmt0=CHAR[256]	4	0
+Fmt1=INT16U[360]	3	0
+Fmt2=INT16U[7]	4	0
+Fmt3=INT32U[4]	1	0
+Fmt4=INT8U[1024]	4	0
+Fmt5=INT8U[20]	4	0
+Fmt6=INT8U[2]	4	0
+Fmt7=INT8U[30]	3	0
+Fmt8=INT8U[4]	1	0
+Fmt9=INT8U[60]	3	0
+Fmt10=INT8U[64]	4	0
+Fmt11=USHORT[256]	4	0
+Fmt12=char[256]	4	0
+Fmt13=uint8_t[4]	4	0
+Fmt14=unsigned char[16]	1	0
+Fmt15=unsigned char[256]	4	0
+[watch_formats]
+Fmt0={W}1:p1	3	0
+Fmt1={W}1:p2	3	0
+Fmt2={W}1:p3	3	0
+Fmt3={W}42:p2	3	0
+[SWOTraceWindow]
+PcSampling=0
+InterruptLogs=0
+ForcedTimeStamps=0
+EventCPI=0
+EventEXC=0
+EventFOLD=0
+EventLSU=0
+EventSLEEP=0
+[DataLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+[InterruptLog]
+LogEnabled=0
+SumEnabled=0
+GraphEnabled=0
+ShowTimeLog=1
+ShowTimeSum=1
+SumSortOrder=0
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[CallStackLog]
+Enabled=0
+[DriverProfiling]
+Enabled=0
+Mode=3
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=0
+[Breakpoints2]
+Bp0=_ 0 "EMUL_DATA" "LPC17xxHwUsartTransmit" 0 0 0 0 4294967295
+Count=1
+[Aliases]
+Count=0
+SuppressDialog=0
